@@ -1,0 +1,233 @@
+.container{
+    position: relative;
+    display: flex;
+}
+h1{
+    font-family:"montserrat";
+}
+h2{
+    font-family:"montserrat";
+}
+p{
+    font-family:"montserrat";
+}
+a{
+    font-family:"montserrat";
+}
+ul{
+    font-family:"montserrat"
+}
+li{
+    font-family:"montserrat"
+}
+
+#BackgroundVideo{
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+}
+#homepageBody{
+    background-color:rgb(255, 230, 0);
+}
+
+
+.navBarButton{
+    border:none;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding: 30px;
+    font-size:18px;
+}
+.navBarButtonHovered{
+    border:none;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding: 30px;
+    font-size:18px;
+}
+
+#navButton4{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#highContrastPicture{
+    width: 100px;
+    height: 70px;
+    
+}
+
+#navBarList{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+#navBarDiv{
+    background-color:rgb(225, 0, 255);
+    border-bottom-style:solid;
+    border-bottom-color:rgb(0, 0, 0);
+    border-bottom-width: 6px;
+}
+
+
+#title{
+    margin:auto;
+    text-align: center;
+}
+#titleHeadings{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+#titleHeadings h1{
+    font-size:70px;
+    margin:2%;
+}
+#titleHeadings h2{
+    font-size:32px;
+    margin:3%;
+}
+
+#logo{
+    width:725px;
+    height:725px;
+    margin-right:80px;
+}
+#map{
+    width:525px;
+    height:525px;
+    margin-top:30px;
+    margin-left:80px;
+}
+
+#mapAndLogo{
+    display:flex;
+}
+
+#pricingBody{
+    background-color:rgb(255, 230, 0);
+}
+#pricingDiv{
+    height: 65vh;
+}
+#equipmentContainer{
+    height: 24vh;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+}
+.pricePanel{
+    flex: 33%;
+    border-style: solid;
+    border-width:5px;
+
+}
+.pricePanel h1{
+    text-align:center;
+    font-size: 50px;
+}
+.pricePanel h2{
+    text-align:center;
+    font-size: 25px;
+}
+.pricePanel li{
+    font-size:35px;
+    margin-bottom:20%;
+    margin-left:3%;
+    list-style:"= ";
+}
+
+#bronze{
+    background-color:rgb(255, 145, 0);
+    border-color:rgb(0, 17, 255);
+}
+#silver{
+    background-color:rgb(0, 255, 242);
+    border-color:rgb(255, 123, 0);
+}
+#gold{
+    background-color:rgb(255, 230, 0);
+    border-color:rgb(183, 0, 255);
+}
+
+#bronze h1{
+    color:rgb(0, 17, 255);
+}
+#silver h1{
+    color:rgb(255, 123, 0);
+}
+#gold h1{
+    color:rgb(183, 0, 255);
+}
+
+#bronze ul{
+    color:rgb(0, 17, 255);
+}
+#silver ul{
+    color:rgb(255, 123, 0);
+}
+#gold ul{
+    color:rgb(183, 0, 255);
+}
+
+#equipment{
+    text-align:center;
+    width:100%;
+    border-style: solid;
+    border-width:5px;
+    border-color:rgb(0, 0, 0);
+}
+#equipment h2{
+    margin:auto;
+    width: 40%;
+}
+
+
+#contactUsBody{
+    background-color:rgb(255, 230, 0);
+}
+
+#contactUsContentContainer{
+    background-color:rgb(8, 85, 173);
+    border-style:solid;
+    border-color:rgb(0, 0, 0);
+    border-width:6px;
+    border-top-style:none;
+
+}
+
+
+#contactUsImage{
+    flex:50%;
+}
+#contactUsImage h1{
+    text-align: center;
+    padding-bottom:30px;
+    font-size:40px;
+    color:rgb(255, 255, 255);
+}
+#contactInformation{
+    flex:50%;
+    font-size:40px;
+}
+
+#contactPhoto{
+    height: 500px;
+    width: 500px;
+}
+
+.contactInformationLine{
+    text-align:right;
+}
+
+.contactInformationLine p{
+    padding-right:15px;
+    color:rgb(255, 255, 255);
+}
+
+.contactLinePhoto{
+    width:70px;
+    height:70px;
+    padding-right:30px;
+    padding-top:40px;
+
+}

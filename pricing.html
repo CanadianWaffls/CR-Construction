@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" id="styleSheet">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <script src="javaScriptCode.js"></script>
+        <title>Cr Construction Pricing</title>
+    </head>
+    <body id="pricingBody">
+        <div class="container" id="navBarDiv">
+            <ul id="navBarList">
+              <li><a href="homepage.html" target="_blank"><button class="navBarButton" id="navButton1" onmouseover="navButtonHovered(1)" onmouseout="navButtonReleased(1)">Home</button></a></li>
+              <li><a href="pricing.html" target="_blank"><button class="navBarButton" id="navButton2" onmouseover="navButtonHovered(2)" onmouseout="navButtonReleased(2)">Pricing</button></a></li>
+              <li><a href="contactUs.html" target="_blank"><button class="navBarButton" id="navButton3" onmouseover="navButtonHovered(3)" onmouseout="navButtonReleased(3)">Contact Us</button></a></li>
+              <li class="navBarButton" id="navButton4" onmouseover="navButtonHovered(4)" onmouseout="navButtonReleased(4)" onclick="highContrast()"><img src="HighContrast1.png" alt="high contrast" id="highContrastPicture"></li>
+            </ul>
+        </div>
+        <div class="container" id="pricingDiv">
+            <div class="pricePanel" id="bronze">
+                    <h1>Bronze Pricing</h1>
+                    <ul>
+                        <li>$5,000.00</li>
+                        <li>Includes a 2-worker team</li>
+                        <li>Maximum of 40 hours</li>
+                    </ul>
+            </div>
+            <div class="pricePanel" id="silver">
+                    <h1>Silver Pricing</h1>
+                    <ul>
+                        <li>$10,000.00</li>
+                        <li>includes a 4-worker team</li>
+                        <li>Maximum of 40 hours</li>
+                    </ul>
+            </div>
+            <div class="pricePanel" id="gold">
+                <h1>Gold Pricing</h1>
+                <ul>
+                    <li>$20,000.00</li>
+                    <li>Includes a 4-worker team</li>
+                    <li>Maximum of 80 hours</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" id="equipmentContainer">
+            <div id="equipment">
+                <h1>Job Equipment</h1>
+                <h2>Every job will come with a selection of our high quality machines. 
+                    We have excavators, buldozers, dumptrucks, loaders, and more!
+                Please contact us for our full selection and availability.</h2>
+            </div>
+        </div>
+    </body>
+</html>

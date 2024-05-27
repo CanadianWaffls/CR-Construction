@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" id="styleSheet">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <script src="javaScriptCode.js"></script>
+        <title>Cr Construction Homepage</title>
+    </head>
+    <body id="homepageBody">
+        <video autoplay muted loop id="BackgroundVideo">
+            <source src="ConstructionVideo.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="container" id="navBarDiv">
+            <div>
+            <ul id="navBarList">
+              <li><a href="homepage.html" target="_blank"><button class="navBarButton" id="navButton1" onmouseover="navButtonHovered(1)" onmouseout="navButtonReleased(1)">Home</button></a></li>
+              <li><a href="pricing.html" target="_blank"><button class="navBarButton" id="navButton2" onmouseover="navButtonHovered(2)" onmouseout="navButtonReleased(2)">Pricing</button></a></li>
+              <li><a href="contactUs.html" target="_blank"><button class="navBarButton" id="navButton3" onmouseover="navButtonHovered(3)" onmouseout="navButtonReleased(3)">Contact Us</button></a></li>
+            </ul>
+            </div>
+            <button style="float:right;" type="button" class="navBarButton" id="navButton4" onmouseover="navButtonHovered(4)" onmouseout="navButtonReleased(4)" onclick="highContrast()"><img src="HighContrast1.png" alt="high contrast" id="highContrastPicture"></button>
+          </div>
+          <div class="container">
+            <div id="title">
+              <div id="titleHeadings">
+                <h1>
+                  CR Construction
+                </h1>
+                <h2>
+                  Building a better world, one job at a time
+                </h2>
+              </div>
+              <div id="mapAndLogo">
+                <img src="Cr Construction Logo3.png" alt="Cr Construction Logo" id="logo">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d77992.07480353143!2d-79.36111746007921!3d43.410514299405726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1716304337132!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
